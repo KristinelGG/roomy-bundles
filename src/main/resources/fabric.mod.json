@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "roomy_bundles",
+  "version": "${version}",
+  "name": "Roomy Bundles",
+  "description": "Bundles can hold several unstackable items (tools, weapons, potions, beds...) instead of just one. Configurable.",
+  "authors": ["kristinelgg"],
+  "contact": {
+    "homepage": "https://modrinth.com/mod/roomy-bundles",
+    "sources": "https://github.com/kristinelgg/roomy-bundles",
+    "issues": "https://github.com/kristinelgg/roomy-bundles/issues"
+  },
+  "license": "MIT",
+  "icon": "assets/roomy_bundles/icon.png",
+  "environment": "*",
+  "mixins": ["roomy_bundles.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": ">=26.3 <26.4",
+    "java": ">=21"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "dev.kris.roomybundles.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "BundleContentsMixin",
+    "BundleContentsMutableMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
